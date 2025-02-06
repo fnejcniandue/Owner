@@ -18,7 +18,7 @@ max_daily_attacks = 10
 user_attack_count = {}
 running_attacks = {}
 user_last_attack_time = {}
-COOLDOWN_TIME = 180 # 180 seconds cooldown
+COOLDOWN_TIME = 0 # 0 seconds cooldown
 
 # Create bot instance
 bot = telebot.TeleBot(bot_token)
